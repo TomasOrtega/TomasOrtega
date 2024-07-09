@@ -14,16 +14,19 @@ My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and
 
 My research is focused on making distributed algorithms work in communication-constrained networks, with an emphasis on privacy-preserving Machine Learning. I derive theoretical bounds and demonstrate my results with practical implementations. This includes algorithms for Federated Learning and Decentralized Control.
 
-More broadly, I am interested in aspects of optimization, information theory and AI.
+More broadly, I am interested in optimization, information theory and AI.
 
 ### Truly decentralized learning on directed graphs
 
 Decentralized optimization algorithms typically require communication between nodes to be bi-directional. 
 
-In the directed case, existing algorithms required nodes to know how many listeners they have (knowledge of their out-degree). We proposed a series of works that circumvent this requirement -- see https://arxiv.org/pdf/2405.19513.
+In the directed case, existing algorithms required nodes to know how many listeners they have (knowledge of their out-degree). We proposed a [series of works](https://github.com/TomasOrtega/DT-GO) that circumvent this requirement.
 
 Currently, I'm interested in incorporating more aspects of real networks to bridge the gap between the practice and theory of decentralized learning.
 
+### Proving stuff with Lean
+
+On the side, I'm learning about theorem proving with Lean. In the future I would like to formalize more of my proofs using Lean, so far I have only done some [tests](https://github.com/TomasOrtega/test_dtgo). 
 
 <!--
 **TomasOrtega/TomasOrtega** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
