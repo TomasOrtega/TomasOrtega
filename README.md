@@ -40,6 +40,13 @@ But, better than that, these point-line incidence matrices are quasi-cyclic!
 This is a really desireable property if you want to construct error correcting codes from GQs, which achieve a very good error rate to round of belief propagation decoding ratio. 
 The repository also has .alist matrices to easily run LDPC simulations.
 
+### Maintaining communication while entering the Martian atmosphere 
+
+During the Entry, Descent and Landing (EDL) phase of rover missions to Mars, the communications are lost due to the large Doppler shift caused by the spacecraft dramatically decelerating when hitting the Martian atmosphere.
+During my time at JPL, we proposed [a system](https://ieeexplore.ieee.org/document/9438418) to enable us to track this shift in Doppler and maintain comms throughout. 
+
+This system will be implemented in the next generation of NASA's spacecraft radios.
+
 
 <!--
 **TomasOrtega/TomasOrtega** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
