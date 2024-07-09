@@ -22,7 +22,7 @@ Decentralized optimization algorithms typically require communication between no
 
 In the directed case, existing algorithms required nodes to know how many listeners they have (knowledge of their out-degree). We proposed a [series of works](https://github.com/TomasOrtega/DT-GO) that circumvent this requirement.
 
-A nice property of this work is that it naturally accomodates networks with delays, as one can add imaginary nodes to the network to model delays, and use the same analysis framework to obtain convergence guarantees.
+A nice property of this framework is that it naturally accomodates networks with delays, as one can add imaginary nodes to the network to model delays, and use the same analysis to obtain convergence guarantees.
 
 Currently, I'm interested in incorporating more aspects of real networks to bridge the gap between the practice and theory of decentralized learning.
 
