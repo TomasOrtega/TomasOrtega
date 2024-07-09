@@ -47,6 +47,8 @@ During my time at JPL, we proposed [a system](https://ieeexplore.ieee.org/docume
 
 This system will be implemented in the next generation of NASA's spacecraft radios.
 
+As a part of this line of work, we derived an analytical approximation for Phase-Locked Loops frequency error standard deviation, which is of independent interest.
+
 
 <!--
 **TomasOrtega/TomasOrtega** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
