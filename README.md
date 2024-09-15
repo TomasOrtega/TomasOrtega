@@ -38,7 +38,7 @@ Together with Simeon Ball, we developed [a method](https://arxiv.org/pdf/2405.20
 This allowed us to construct [the largest point-line GQ incidence matrix repository](https://github.com/TomasOrtega/QuasiCyclicGQs) that currently exists. 
 But, better than that, these point-line incidence matrices are quasi-cyclic! 
 This is a really desireable property if you want to construct error correcting codes from GQs, which achieve a very good error rate to round of belief propagation decoding ratio. 
-The repository also has .alist matrices to easily run LDPC simulations.
+The repository also has [.alist](https://www.inference.org.uk/mackay/codes/alist.html) matrices to easily run LDPC simulations.
 
 ### Maintaining communication while entering the Martian atmosphere 
 
