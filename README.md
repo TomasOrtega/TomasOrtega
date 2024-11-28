@@ -28,7 +28,7 @@ Currently, I'm interested in incorporating more aspects of real networks to brid
 
 ### Proving stuff with Lean
 
-On the side, I'm learning about theorem proving with Lean. In the future I would like to formalize more of my proofs using Lean, so far I have only done some [tests](https://github.com/TomasOrtega/test_dtgo). 
+On the side, I'm learning about theorem proving with Lean. In the future I would like to formalize more of my proofs using Lean, so far I have only a small [auxiliary lemma](https://github.com/TomasOrtega/test_dtgo) and some elementary results about [Sidon sets](https://tomasortega.github.io/Sidon). 
 
 
 ### Error correcting codes from Generalized Quadrangles
