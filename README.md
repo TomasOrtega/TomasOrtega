@@ -20,7 +20,7 @@ More broadly, I am interested in optimization, information theory and AI.
 
 Practical distributed learning often uses biased aggressive compression for communication from the clients to the server. However, to guarantee convergence, we need client-specific control variates to perform error feedback. 
 
-Individual control variates kill privacy guarantees, and do not scale with the number of clients. To fix error feedback, we proposed [a framework](https://arxiv.org/abs/2412.04538) that leverages previous *aggregated* client updates for feedback. This allows highly aggressive compression without the privacy and scale issues that come with client-specific control variates. 
+Individual control variates kill privacy guarantees, and do not scale with the number of clients. To fix error feedback, we proposed [a framework](https://arxiv.org/abs/2412.04538) that leverages previous *aggregated* client updates for feedback. This allows highly aggressive compression without the privacy and scale issues that come with client-specific control variates. The open-source code is available [here](https://github.com/TomasOrtega/TellMeTwice).
 
 ### Truly decentralized learning on directed graphs
 
