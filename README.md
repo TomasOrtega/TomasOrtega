@@ -2,7 +2,7 @@
 
 **Center for Pervasive Communications and Computing (CPCC) at the University of California, Irvine**
 
-Originally, I am from Sant Cugat (near Barcelona) but I've lived in Pasadena, Irvine (now), as well as Madison, WI.
+Originally, I am from Sant Cugat (near Barcelona) but I've lived in Pasadena, Irvine, Philadelphia (now), as well as Madison, WI.
 
 My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en) and at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/). 
 
@@ -54,19 +54,3 @@ During my time at JPL, we proposed [a system](https://ieeexplore.ieee.org/docume
 This system will be implemented in the next generation of NASA's spacecraft radios.
 
 As a part of this line of work, we derived an analytical approximation for Phase-Locked Loops frequency error standard deviation, which is of independent interest.
-
-
-<!--
-**TomasOrtega/TomasOrtega** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
