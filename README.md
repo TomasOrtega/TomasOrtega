@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/TomasOrtega.png" width="180px" height="180px" id="profile-pic" alt="Tomas Ortega" style="border-radius: 50%; object-fit: cover; border: 3px solid #eee;"/>
   
-  <h1>Tomas Ortega</h1>
+  <h1>Tomàs Ortega</h1>
   
   <p>
     <b>PhD Candidate</b><br>
