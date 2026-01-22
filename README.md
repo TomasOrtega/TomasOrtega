@@ -22,6 +22,8 @@ My research is focused on making distributed algorithms work in communication-co
 
 More broadly, I am interested in optimization, information theory and AI.
 
+## Some highlighted projects
+
 ### Privacy-preserving Error Feedback for Distributed Learning
 
 Practical distributed learning often uses biased aggressive compression for communication from the clients to the server. However, to guarantee convergence, we need client-specific control variates to perform error feedback. 
