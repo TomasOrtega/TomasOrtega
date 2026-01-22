@@ -29,9 +29,11 @@
       <img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon Verification">
     </a>
   </div>
+  
   <div>
   <a href="https://tomasortega.github.io/CV.pdf" class="btn-cv">Check out my CV!</a>
   </div>
+  
 </div>
 
 Originally, I am from Sant Cugat (near Barcelona) but I've lived in Madison, Pasadena, Irvine, and now in Philadelphia.
