@@ -2,9 +2,9 @@
 
 **Electrical Engineering and Computer Science at the University of California, Irvine**
 
-Originally, I am from Sant Cugat (near Barcelona) but I've lived in Pasadena, Irvine, Philadelphia (now), as well as Madison, WI.
+Originally, I am from Sant Cugat (near Barcelona) but I've lived in Madison, Pasadena, Irvine, and now in Philadelphia.
 
-My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en) and at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/). 
+My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en), at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/), and at Nokia Bell Labs (Murray Hill) with [Sahil Tikale](https://www.nokia.com/people/sahil-tikale/). 
 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TomasOrtega)
@@ -36,7 +36,9 @@ Currently, I'm interested in incorporating more aspects of real networks to brid
 
 ### Proving stuff with Lean
 
-On the side, I enjoy theorem proving with Lean. In the future I would like to formalize more of my proofs using Lean. I have contributed to [Compfiles](https://github.com/dwrensha/compfiles/pull/65), [Sphere-Packing](https://github.com/thefundamentaltheor3m/Sphere-Packing-Lean/pull/134), and [OrderedSemigroups](https://github.com/ericluap/OrderedSemigroups), among others. 
+On the side, I enjoy theorem proving with Lean. In the future I would like to formalize more of my proofs using Lean. 
+I used to organize a group for people in the greater LA area to learn how to write mathematical proofs in Lean.
+I have contributed to [Compfiles](https://github.com/dwrensha/compfiles/pull/65), [Sphere-Packing](https://github.com/thefundamentaltheor3m/Sphere-Packing-Lean/pull/134), and [OrderedSemigroups](https://github.com/ericluap/OrderedSemigroups), among others. 
 
 
 ### Error correcting codes from Generalized Quadrangles
@@ -56,3 +58,6 @@ During my time at JPL, we proposed [a system](https://ieeexplore.ieee.org/docume
 This system will be implemented in the next generation of NASA's spacecraft radios.
 
 As a part of this line of work, we derived an analytical approximation for Phase-Locked Loops frequency error standard deviation, which is of independent interest.
+
+### If you made it this far...
+Here is a [Snake game](https://github.com/TomasOrtega/JavaSnake) I coded in Java.
