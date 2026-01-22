@@ -22,7 +22,7 @@ My research is focused on making distributed algorithms work in communication-co
 
 More broadly, I am interested in optimization, information theory and AI.
 
-## Some highlighted projects
+# Some highlighted projects
 
 ### Privacy-preserving Error Feedback for Distributed Learning
 
