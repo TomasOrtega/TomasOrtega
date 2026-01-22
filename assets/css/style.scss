@@ -59,3 +59,13 @@ section {
 img, pre {
   max-width: 100% !important;
 }
+
+/* FORCE PROFILE PICTURE TO BE A CIRCLE */
+#profile-pic {
+    border-radius: 50% !important;
+    object-fit: cover !important; /* Ensures the image doesn't look squashed */
+    border: 3px solid #eee !important; /* Optional nice border */
+    /* Ensure height and width match for a perfect circle */
+    width: 180px;
+    height: 180px;
+}
