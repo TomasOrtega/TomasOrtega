@@ -29,10 +29,12 @@
       <img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon Verification">
     </a>
   </div>
-  
+
+  <br>
   <div>
   <a href="https://tomasortega.github.io/CV.pdf" class="btn-cv">Check out my CV!</a>
   </div>
+  <br>
   
 </div>
 
