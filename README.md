@@ -6,9 +6,11 @@ Originally, I am from Sant Cugat (near Barcelona) but I've lived in Pasadena, Ir
 
 My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en) and at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/). 
 
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)
-](https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en)  [![X (Twitter)](https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white)
-](https://twitter.com/tomas__ortega)  [![CV](https://img.shields.io/badge/CV-009900?style=for-the-badge&logoColor=white)](https://tomasortega.github.io/CV.pdf)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TomasOrtega)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=flat-square&logo=bluesky&logoColor=white)](https://bsky.app/profile/YOUR_USERNAME_HERE)
+[![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=flat-square&logo=X&logoColor=white)](https://twitter.com/tomas__ortega)
+[![CV](https://img.shields.io/badge/CV-2ea44f?style=flat-square&logo=cv&logoColor=white)](https://tomasortega.github.io/CV.pdf)
 
 # Research interests
 
