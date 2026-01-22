@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/TomasOrtega.png" width="180px" height="180px" id="profile-pic" alt="Tomas Ortega" style="border-radius: 50%; object-fit: cover; border: 3px solid #eee;"/>
   
-  <h1>Tomàs Ortega</h1>
+  <h1>Tomas Ortega</h1>
   
   <p>
     <b>PhD Candidate</b><br>
@@ -22,13 +22,12 @@
     <a href="https://twitter.com/tomas__ortega">
       <img src="https://img.shields.io/badge/X-%23000000.svg?style=flat-square&logo=X&logoColor=white" alt="Twitter"/>
     </a>
-    <a href="https://tomasortega.github.io/CV.pdf">
-      <img src="https://img.shields.io/badge/CV-2ea44f?style=flat-square&logo=cv&logoColor=white" alt="CV"/>
-    </a>
   </p>
-</div>
 
-<br />
+  <a href="https://tomasortega.github.io/CV.pdf" class="btn-cv">Download CV</a>
+
+  <br><br>
+</div>
 
 Originally, I am from Sant Cugat (near Barcelona) but I've lived in Madison, Pasadena, Irvine, and now in Philadelphia.
 
