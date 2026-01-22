@@ -88,3 +88,22 @@ pre, code {
     max-width: 100%;
     overflow-x: auto; 
 }
+
+.btn-cv {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 24px;
+  background-color: #333; /* Dark professional grey */
+  color: #fff !important; /* Force white text */
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 50px; /* Makes it pill-shaped */
+  transition: background 0.3s ease;
+  font-size: 0.95rem;
+  border: 2px solid #333;
+}
+
+.btn-cv:hover {
+  background-color: white;
+  color: #333 !important;
+}
