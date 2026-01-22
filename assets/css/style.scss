@@ -120,3 +120,24 @@ p a img[src*="shields.io"]:hover {
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
+/* SHIELDS STYLING */
+
+.shield-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;        
+  gap: 10px;
+  margin: 15px 0;          
+}
+
+.shield-container a img {
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+
+.shield-container a img:hover {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
