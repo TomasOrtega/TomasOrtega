@@ -122,10 +122,12 @@ a.btn-cv, a.btn-cv:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  bottom-margin: 5px;
 }
 
 .shield-container a img {
   border-radius: 4px;
+  height: 40px;
   transition: all 0.3s ease;
   margin: 5px;
 }
