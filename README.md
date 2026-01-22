@@ -1,19 +1,31 @@
 <div align="center">
-<img src="https://github.com/TomasOrtega.png" width="180px" height="180px" id="profile-pic" alt="Tomas Ortega"/>
+  <img src="https://github.com/TomasOrtega.png" width="180px" height="180px" id="profile-pic" alt="Tomas Ortega" style="border-radius: 50%; object-fit: cover; border: 3px solid #eee;"/>
+  
   <h1>Tomas Ortega</h1>
+  
   <p>
     <b>PhD Candidate</b><br>
     Electrical Engineering and Computer Science<br>
     University of California, Irvine
   </p>
 
-  [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TomasOrtega)
-[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=flat-square&logo=bluesky&logoColor=white)](https://bsky.app/profile/tomasortega.net)
-[![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=flat-square&logo=X&logoColor=white)](https://twitter.com/tomas__ortega)
-[![CV](https://img.shields.io/badge/CV-2ea44f?style=flat-square&logo=cv&logoColor=white)](https://tomasortega.github.io/CV.pdf)
-
-
+  <p>
+    <a href="https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en">
+      <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white" alt="Google Scholar"/>
+    </a>
+    <a href="https://github.com/TomasOrtega">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="https://bsky.app/profile/tomasortega.net">
+      <img src="https://img.shields.io/badge/Bluesky-0285FF?style=flat-square&logo=bluesky&logoColor=white" alt="Bluesky"/>
+    </a>
+    <a href="https://twitter.com/tomas__ortega">
+      <img src="https://img.shields.io/badge/X-%23000000.svg?style=flat-square&logo=X&logoColor=white" alt="Twitter"/>
+    </a>
+    <a href="https://tomasortega.github.io/CV.pdf">
+      <img src="https://img.shields.io/badge/CV-2ea44f?style=flat-square&logo=cv&logoColor=white" alt="CV"/>
+    </a>
+  </p>
 </div>
 
 <br />
