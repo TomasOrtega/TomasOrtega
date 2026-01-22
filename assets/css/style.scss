@@ -89,21 +89,25 @@ pre, code {
     overflow-x: auto; 
 }
 
+/* CV Call-to-Action Button */
 .btn-cv {
   display: inline-block;
-  margin: 5px;
-  padding: 10px 24px;
-  background-color: #333; /* Dark professional grey */
-  color: #fff !important; /* Force white text */
+  margin-top: 10px;
+  padding: 12px 28px;
+  background-color: #333; 
+  color: #fff !important; 
   text-decoration: none;
   font-weight: 700;
-  border-radius: 50px; /* Makes it pill-shaped */
-  transition: background 0.3s ease;
-  font-size: 0.95rem;
+  border-radius: 50px; 
+  transition: all 0.3s ease;
+  font-size: 1rem;
   border: 2px solid #333;
 }
 
+/* Hover State (Inverts colors) */
 .btn-cv:hover {
-  background-color: white;
+  background-color: transparent;
   color: #333 !important;
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
