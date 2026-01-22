@@ -1,16 +1,26 @@
-**PhD Candidate**
+<div align="center">
+  <img src="https://gravatar.com/tomasosc.jpg" width="180px" style="border-radius: 50%; object-fit: cover; border: 3px solid #eee;" alt="Tomas Ortega"/>
+  <h1>Tomas Ortega</h1>
+  <p>
+    <b>PhD Candidate</b><br>
+    Electrical Engineering and Computer Science<br>
+    University of California, Irvine
+  </p>
 
-**Electrical Engineering and Computer Science at the University of California, Irvine**
-
-Originally, I am from Sant Cugat (near Barcelona) but I've lived in Madison, Pasadena, Irvine, and now in Philadelphia.
-
-My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en), at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/), and at Nokia Bell Labs (Murray Hill) with [Sahil Tikale](https://www.nokia.com/people/sahil-tikale/). 
-
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en)
+  [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TomasOrtega)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=flat-square&logo=bluesky&logoColor=white)](https://bsky.app/profile/tomasortega.net)
 [![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=flat-square&logo=X&logoColor=white)](https://twitter.com/tomas__ortega)
 [![CV](https://img.shields.io/badge/CV-2ea44f?style=flat-square&logo=cv&logoColor=white)](https://tomasortega.github.io/CV.pdf)
+
+
+</div>
+
+<br />
+
+Originally, I am from Sant Cugat (near Barcelona) but I've lived in Madison, Pasadena, Irvine, and now in Philadelphia.
+
+My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en), at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/), and at Nokia Bell Labs (Murray Hill) with [Sahil Tikale](https://www.nokia.com/people/sahil-tikale/). 
 
 Before joining UCI, I graduated from Universitat Politècnica de Catalunya with a double degree in Mathematics and Electrical Engineering as part of the [CFIS program](https://cfis.upc.edu/en), and a MS in [Advanced Mathematics and Mathematical Engineering](https://mamme.masters.upc.edu/en), focused on discrete mathematics and information theory.
 
