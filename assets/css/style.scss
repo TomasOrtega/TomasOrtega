@@ -1,0 +1,32 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 1. Import the Google Fonts (Open Sans & Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* 2. Apply them to match Google Sites */
+body {
+  font-family: "Open Sans", "Roboto", "Helvetica Neue", sans-serif;
+  color: #333;           /* Standard dark grey text */
+  font-size: 16px;       /* Standard readable size */
+  line-height: 1.6;
+}
+
+/* Optional: Make headings look like Google Site headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Roboto", sans-serif;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Hide the main header (Title and Repo Name) */
+header {
+  display: none !important;
+}
+
+/* If you are using 'jekyll-theme-minimal', this hides the specific wrapper */
+.wrapper header {
+  display: none !important;
+}
