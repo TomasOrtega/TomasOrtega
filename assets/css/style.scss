@@ -30,3 +30,8 @@ header {
 .wrapper header {
   display: none !important;
 }
+
+/* Remove the footer credits */
+footer {
+  display: none !important;
+}
