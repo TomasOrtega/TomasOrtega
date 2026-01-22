@@ -5,12 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 /* GLOBAL FIXES FOR MOBILE */
-/* 1. Ensure padding doesn't make elements wider than the screen */
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-/* 2. Prevent the whole page from ever scrolling horizontally */
 body, html {
   overflow-x: hidden;
   margin: 0;
@@ -29,8 +27,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", "Roboto", sans-serif;
   font-weight: 700;
   color: #222;
-  
-  /* Prevent long words in titles from breaking layout on tiny screens */
   overflow-wrap: break-word; 
   word-wrap: break-word;
 }
@@ -47,8 +43,6 @@ header, footer, .wrapper header {
   max-width: 900px !important;
   margin: 0 auto !important;
   padding: 20px !important;
-  
-  /* Ensure content wraps inside the box */
   overflow-wrap: break-word; 
 }
 
@@ -62,41 +56,37 @@ section {
 
 /* --- IMAGE & MEDIA FIXES --- */
 
-/* Ensure images (like your profile pic and badges) shrink if the screen is too small */
 img {
   max-width: 100% !important;
   height: auto !important;
 }
 
-/* SPECIFIC PROFILE PIC STYLING */
 #profile-pic {
-    border-radius: 50% !important;
-    object-fit: cover !important;
-    border: 3px solid #eee !important;
-    width: 180px;
-    height: 180px;
-    
-    /* On extremely small screens, allow the profile pic to shrink slightly */
-    max-width: 80% !important; 
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid #eee !important;
+  width: 180px;
+  height: 180px;
+  max-width: 80% !important; 
 }
 
 /* CODE BLOCKS */
 pre, code {
-    /* Allow code blocks to scroll internally instead of breaking the page */
-    white-space: pre-wrap; 
-    word-break: break-all; 
-    max-width: 100%;
-    overflow-x: auto; 
+  white-space: pre-wrap; 
+  word-break: break-all; 
+  max-width: 100%;
+  overflow-x: auto; 
 }
 
+/* CV BUTTON */
 .btn-cv {
   display: inline-block;
   padding: 10px 24px;
-  background-color: #333; /* Dark professional grey */
-  color: #fff !important; /* Force white text */
+  background-color: #333;
+  color: #fff !important;
   text-decoration: none;
   font-weight: 700;
-  border-radius: 50px; /* Makes it pill-shaped */
+  border-radius: 50px;
   transition: background 0.3s ease;
   font-size: 0.95rem;
   border: 2px solid #333;
@@ -107,37 +97,44 @@ pre, code {
   color: #333 !important;
 }
 
-/* SHIELDS STYLING */
-/* Target shield badges in anchor tags */
-p a img[src*="shields.io"] {
-  margin: 20px;
-  border-radius: 4px;
-  transform: scale(1.1);
-  transition: all 0.3s ease;
+/* --- LINK FIXES (New) --- */
+
+a {
+  text-decoration: none;
+  color: #2a7ae2; /* Optional: Sets a standard link color */
 }
 
-p a img[src*="shields.io"]:hover {
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+a:hover {
+  /* Prevents text from jumping by keeping weight consistent */
+  font-weight: inherit !important; 
+  text-decoration: underline; 
 }
 
-/* SHIELDS STYLING */
+/* Ensure CV button ignores the underline rule */
+a.btn-cv, a.btn-cv:hover {
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+/* --- SHIELDS STYLING (New) --- */
 
 .shield-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;        
-  gap: 10px;
-  margin: 15px 0;          
+  flex-wrap: wrap;
 }
 
 .shield-container a img {
   border-radius: 4px;
+  /* Permanently larger */
+  transform: scale(1.1); 
   transition: all 0.3s ease;
-  transform: scale(1.1);
+  margin: 10px;
 }
 
 .shield-container a img:hover {
-  background-color: white;
+  /* Optional: Add a subtle lift or shadow on hover, but keep size static */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 10;
 }
