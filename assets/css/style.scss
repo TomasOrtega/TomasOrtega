@@ -90,7 +90,6 @@ pre, code {
   transition: background 0.3s ease;
   font-size: 0.95rem;
   border: 2px solid #333;
-  bottom-margin: 10px;
 }
 
 .btn-cv:hover {
@@ -129,7 +128,8 @@ a.btn-cv, a.btn-cv:hover {
   border-radius: 4px;
   height: 40px;
   transition: all 0.3s ease;
-  margin: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .shield-container a img:hover {
