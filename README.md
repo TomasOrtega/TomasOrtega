@@ -30,10 +30,9 @@
     </a>
   </div>
   <br>
-
   <a href="https://tomasortega.github.io/CV.pdf" class="btn-cv">Check out my CV!</a>
   
-  <br><br>
+  <br>
 </div>
 
 Originally, I am from Sant Cugat (near Barcelona) but I've lived in Madison, Pasadena, Irvine, and now in Philadelphia.
