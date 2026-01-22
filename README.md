@@ -25,6 +25,7 @@
   </p>
 
   <a href="https://tomasortega.github.io/CV.pdf" class="btn-cv">Check out my CV!</a>
+  
   <br>
 </div>
 
