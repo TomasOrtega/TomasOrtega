@@ -2,77 +2,89 @@
 ---
 
 @import "{{ site.theme }}";
-
-/* 1. Import the Google Fonts (Open Sans & Roboto) */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
-/* 2. Apply them to match Google Sites */
+/* GLOBAL FIXES FOR MOBILE */
+/* 1. Ensure padding doesn't make elements wider than the screen */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* 2. Prevent the whole page from ever scrolling horizontally */
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Open Sans", "Roboto", "Helvetica Neue", sans-serif;
-  color: #333;           /* Standard dark grey text */
-  font-size: 16px;       /* Standard readable size */
+  color: #333;
+  font-size: 16px;
   line-height: 1.6;
 }
 
-/* Optional: Make headings look like Google Site headings */
+/* HEADINGS */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", "Roboto", sans-serif;
   font-weight: 700;
   color: #222;
+  
+  /* Prevent long words in titles from breaking layout on tiny screens */
+  overflow-wrap: break-word; 
+  word-wrap: break-word;
 }
 
-/* Hide the main header (Title and Repo Name) */
-header {
+/* HIDE DEFAULT THEME ELEMENTS */
+header, footer, .wrapper header {
   display: none !important;
 }
 
-/* If you are using 'jekyll-theme-minimal', this hides the specific wrapper */
-.wrapper header {
-  display: none !important;
-}
+/* --- MAIN LAYOUT --- */
 
-/* Remove the footer credits */
-footer {
-  display: none !important;
-}
-
-/* --- FORCE CENTERED LAYOUT WITH MAX WIDTH --- */
-
-/* 1. Control the main container width */
 .wrapper {
-  /* Takes up full space on small screens */
-  width: 100% !important; 
-  
-  /* STOPS stretching on big screens. 
-     900px is a good "readable" width. 
-     Increase to 1100px if you need more space. */
-  max-width: 900px !important; 
-  
-  /* Centers the content (0 top/bottom, Auto left/right) */
-  margin: 0 auto !important; 
-  
+  width: 100% !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
   padding: 20px !important;
+  
+  /* Ensure content wraps inside the box */
+  overflow-wrap: break-word; 
 }
 
-/* 2. Reset the content section to fill the wrapper */
 section {
   width: 100% !important;
   max-width: 100% !important;
-  float: none !important; /* Stops it from pushing to the right */
+  float: none !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* 3. Ensure images/code blocks don't overflow the new width */
-img, pre {
+/* --- IMAGE & MEDIA FIXES --- */
+
+/* Ensure images (like your profile pic and badges) shrink if the screen is too small */
+img {
   max-width: 100% !important;
+  height: auto !important;
 }
 
-/* FORCE PROFILE PICTURE TO BE A CIRCLE */
+/* SPECIFIC PROFILE PIC STYLING */
 #profile-pic {
     border-radius: 50% !important;
     object-fit: cover !important;
     border: 3px solid #eee !important;
     width: 180px;
     height: 180px;
+    
+    /* On extremely small screens, allow the profile pic to shrink slightly */
+    max-width: 80% !important; 
+}
+
+/* CODE BLOCKS */
+pre, code {
+    /* Allow code blocks to scroll internally instead of breaking the page */
+    white-space: pre-wrap; 
+    word-break: break-all; 
+    max-width: 100%;
+    overflow-x: auto; 
 }
