@@ -1,6 +1,6 @@
 **PhD Candidate**
 
-**Center for Pervasive Communications and Computing (CPCC) at the University of California, Irvine**
+**Electrical Engineering and Computer Science at the University of California, Irvine**
 
 Originally, I am from Sant Cugat (near Barcelona) but I've lived in Pasadena, Irvine, Philadelphia (now), as well as Madison, WI.
 
