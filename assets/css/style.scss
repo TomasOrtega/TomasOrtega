@@ -36,17 +36,25 @@ footer {
   display: none !important;
 }
 
-/* FORCE ONE-COLUMN LAYOUT */
+/* --- FORCE CENTERED LAYOUT WITH MAX WIDTH --- */
 
-/* 1. Make the main wrapper full width */
+/* 1. Control the main container width */
 .wrapper {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important; 
-  padding: 20px !important; /* Adds a little breathing room */
+  /* Takes up full space on small screens */
+  width: 100% !important; 
+  
+  /* STOPS stretching on big screens. 
+     900px is a good "readable" width. 
+     Increase to 1100px if you need more space. */
+  max-width: 900px !important; 
+  
+  /* Centers the content (0 top/bottom, Auto left/right) */
+  margin: 0 auto !important; 
+  
+  padding: 20px !important;
 }
 
-/* 2. Reset the content section to take up all space */
+/* 2. Reset the content section to fill the wrapper */
 section {
   width: 100% !important;
   max-width: 100% !important;
@@ -55,7 +63,7 @@ section {
   padding: 0 !important;
 }
 
-/* 3. (Optional) Ensure images/code blocks don't overflow */
+/* 3. Ensure images/code blocks don't overflow the new width */
 img, pre {
   max-width: 100% !important;
 }
@@ -63,9 +71,8 @@ img, pre {
 /* FORCE PROFILE PICTURE TO BE A CIRCLE */
 #profile-pic {
     border-radius: 50% !important;
-    object-fit: cover !important; /* Ensures the image doesn't look squashed */
-    border: 3px solid #eee !important; /* Optional nice border */
-    /* Ensure height and width match for a perfect circle */
+    object-fit: cover !important;
+    border: 3px solid #eee !important;
     width: 180px;
     height: 180px;
 }
