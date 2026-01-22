@@ -12,6 +12,10 @@ My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and
 [![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=flat-square&logo=X&logoColor=white)](https://twitter.com/tomas__ortega)
 [![CV](https://img.shields.io/badge/CV-2ea44f?style=flat-square&logo=cv&logoColor=white)](https://tomasortega.github.io/CV.pdf)
 
+Before joining UCI, I graduated from Universitat Politècnica de Catalunya with a double degree in Mathematics and Electrical Engineering as part of the [CFIS program](https://cfis.upc.edu/en), and a MS in [Advanced Mathematics and Mathematical Engineering](https://mamme.masters.upc.edu/en), focused on discrete mathematics and information theory.
+
+For my undergrad thesis I worked with the Communications Architectures and Research Section at [NASA's Jet Propulsion Laboratory](https://www.jpl.nasa.gov/), helping build the next-generation space radios.
+
 # Research interests
 
 My research is focused on making distributed algorithms work in communication-constrained networks, with an emphasis on privacy-preserving Machine Learning. I derive theoretical bounds and demonstrate my results with practical implementations. This includes algorithms for Federated Learning and Decentralized Control.
