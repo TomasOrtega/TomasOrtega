@@ -9,7 +9,7 @@
     University of California, Irvine
   </p>
 
-  <p>
+  <div class="shield-container">
     <a href="https://scholar.google.com/citations?user=YElSNAIAAAAJ&hl=en">
       <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"/>
     </a>
@@ -25,8 +25,10 @@
     <a href="https://www.linkedin.com/in/tomas-ortega-sc/">
       <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-    <a rel="me" href="https://mathstodon.xyz/@tomasortega"><img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon Verification"></a>
-  </p>
+    <a rel="me" href="https://mathstodon.xyz/@tomasortega">
+      <img src="https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon Verification">
+    </a>
+  </div>
 
   <a href="https://tomasortega.github.io/CV.pdf" class="btn-cv">Check out my CV!</a>
   
