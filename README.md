@@ -54,7 +54,7 @@ More broadly, I am interested in optimization, information theory and AI.
 
 # Some highlighted projects
 
-### Decentralized Online Learning without Learning Rates
+### Decentralized online learning without learning rates
 
 Tuning learning rates is a major pain point in online learning.
 In the decentralized setting, this problem is worse nodes have to coordinate between them.
@@ -76,7 +76,7 @@ The code for this project is available [here](https://github.com/TomasOrtega/Dec
   </div>
 </div>
 
-### Privacy-preserving Error Feedback for Distributed Learning
+### Privacy-preserving error feedback for distributed learning
 
 Practical distributed learning often uses biased aggressive compression for communication from the clients to the server. However, to guarantee convergence, we need client-specific control variates to perform error feedback.
 
