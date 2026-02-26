@@ -65,7 +65,7 @@ Individual control variates kill privacy guarantees, and do not scale with the n
 <!-- [![](https://mermaid.ink/img/pako:eNp1lE1v2zAMhv-KpgHrYUkQy3Ga-DBgdbBeWmyAsw1Y3INi0Y4QWQpkeVua5L-PtpqvdaMvFvmQfEUT3tHcCKAxLS3frMh8lmmCVjdL70jB_gRLUinAR1pLg8XXjeAOyL0yS67II9ZQT6Tf_0CSYJGYatNg8OaLBSFzZ-wNuW-grp8uSrDFDHIELfrJO_JRiCv-jufrK7wrngbeBVpk-i-liZKgXaeUnBOToE3cp5jhVZL3r3XtScIWc8ulJkaTB5PjlWbc8QsBiReQhIuEq7xR7eXntgHiB3FJhp4cLdJm6SzP3VXDwprqf5mjTutnrbaEk7riShEhiwIs6ByIhQoV1m9QbdTNuBudWwGZnaDLatH55kcaxAW7x6lejLN9oT3cAylo7FBgj1ZgsSUe6a6NZxSbVZDRGF8FFLxRLqM9H1LGrH1kxbWYWf5Ln2Jd2jduJV8qqFtqd9SZ0cJol8rnl7LBaHOseQ5_B1munAeWRolXwCdeSbX1QM113a_ByuIKy1VTO7B369Jjb4tp-_yTMVaAfcHyzq4wJTUkRpkjEnV2hYAo4YEvQbV7XFrT4IRp3HbtLKMePWT6gDPfcP3DmOo4dsTLFY0Lrmo8Nd2azCTHNa9OXvyCqDHBwo7GwXDMuio03tHfNGbj4WA8iUZRFDLGxtG4R7dIhYNJyCI2CYJRGEwmo8mhR5-7vsPBNGDTYBoFQxbesim77eEVJC7so_875EYXsqSHP1bURBU?type=png)](https://mermaid.live/edit#pako:eNp1lE1v2zAMhv-KpgHrYUkQy3Ga-DBgdbBeWmyAsw1Y3INi0Y4QWQpkeVua5L-PtpqvdaMvFvmQfEUT3tHcCKAxLS3frMh8lmmCVjdL70jB_gRLUinAR1pLg8XXjeAOyL0yS67II9ZQT6Tf_0CSYJGYatNg8OaLBSFzZ-wNuW-grp8uSrDFDHIELfrJO_JRiCv-jufrK7wrngbeBVpk-i-liZKgXaeUnBOToE3cp5jhVZL3r3XtScIWc8ulJkaTB5PjlWbc8QsBiReQhIuEq7xR7eXntgHiB3FJhp4cLdJm6SzP3VXDwprqf5mjTutnrbaEk7riShEhiwIs6ByIhQoV1m9QbdTNuBudWwGZnaDLatH55kcaxAW7x6lejLN9oT3cAylo7FBgj1ZgsSUe6a6NZxSbVZDRGF8FFLxRLqM9H1LGrH1kxbWYWf5Ln2Jd2jduJV8qqFtqd9SZ0cJol8rnl7LBaHOseQ5_B1munAeWRolXwCdeSbX1QM113a_ByuIKy1VTO7B369Jjb4tp-_yTMVaAfcHyzq4wJTUkRpkjEnV2hYAo4YEvQbV7XFrT4IRp3HbtLKMePWT6gDPfcP3DmOo4dsTLFY0Lrmo8Nd2azCTHNa9OXvyCqDHBwo7GwXDMuio03tHfNGbj4WA8iUZRFDLGxtG4R7dIhYNJyCI2CYJRGEwmo8mhR5-7vsPBNGDTYBoFQxbesim77eEVJC7so_875EYXsqSHP1bURBU) -->
 
 <div align="center">
-  <a title="Tomas Ortega, EF diagram." href="https://github.com/TomasOrtega/CAFe"><img src="assets/images/mermaid.svg" alt="EF block diagram" style="height: auto; width: 50%; max-width: 400px; border-radius: 8px; border: 1px solid #ddd;"/></a>
+  <a title="Tomas Ortega, EF diagram." href="https://github.com/TomasOrtega/CAFe"><img src="assets/images/mermaid.png" alt="EF block diagram" style="height: auto; width: 50%; max-width: 400px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; display: inline-block;">
     Compressed aggregate error feedback block diagram.
@@ -110,7 +110,7 @@ This is a really desireable property if you want to construct error correcting c
 The repository also has [.alist](https://www.inference.org.uk/mackay/codes/alist.html) matrices to easily run LDPC simulations.
 
 <div align="center">
-  <a title="Wcherowi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GQ(2,2).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/GQ%282%2C2%29.svg" alt="GQ(2,2)" style="height: auto; width: 50%; max-width: 220px; border-radius: 8px; border: 1px solid #ddd;"/></a>
+  <a title="Wcherowi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GQ(2,2).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/GQ%282%2C2%29.svg" alt="GQ(2,2)" style="height: auto; width: 50%; max-width: 200px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; display: inline-block;">
     Visualization of GQ(2,2).
