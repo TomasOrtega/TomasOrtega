@@ -65,7 +65,7 @@ Individual control variates kill privacy guarantees, and do not scale with the n
 <!-- [![](https://mermaid.ink/img/pako:eNp1lE1v2zAMhv-KpgHrYUkQy3Ga-DBgdbBeWmyAsw1Y3INi0Y4QWQpkeVua5L-PtpqvdaMvFvmQfEUT3tHcCKAxLS3frMh8lmmCVjdL70jB_gRLUinAR1pLg8XXjeAOyL0yS67II9ZQT6Tf_0CSYJGYatNg8OaLBSFzZ-wNuW-grp8uSrDFDHIELfrJO_JRiCv-jufrK7wrngbeBVpk-i-liZKgXaeUnBOToE3cp5jhVZL3r3XtScIWc8ulJkaTB5PjlWbc8QsBiReQhIuEq7xR7eXntgHiB3FJhp4cLdJm6SzP3VXDwprqf5mjTutnrbaEk7riShEhiwIs6ByIhQoV1m9QbdTNuBudWwGZnaDLatH55kcaxAW7x6lejLN9oT3cAylo7FBgj1ZgsSUe6a6NZxSbVZDRGF8FFLxRLqM9H1LGrH1kxbWYWf5Ln2Jd2jduJV8qqFtqd9SZ0cJol8rnl7LBaHOseQ5_B1munAeWRolXwCdeSbX1QM113a_ByuIKy1VTO7B369Jjb4tp-_yTMVaAfcHyzq4wJTUkRpkjEnV2hYAo4YEvQbV7XFrT4IRp3HbtLKMePWT6gDPfcP3DmOo4dsTLFY0Lrmo8Nd2azCTHNa9OXvyCqDHBwo7GwXDMuio03tHfNGbj4WA8iUZRFDLGxtG4R7dIhYNJyCI2CYJRGEwmo8mhR5-7vsPBNGDTYBoFQxbesim77eEVJC7so_875EYXsqSHP1bURBU?type=png)](https://mermaid.live/edit#pako:eNp1lE1v2zAMhv-KpgHrYUkQy3Ga-DBgdbBeWmyAsw1Y3INi0Y4QWQpkeVua5L-PtpqvdaMvFvmQfEUT3tHcCKAxLS3frMh8lmmCVjdL70jB_gRLUinAR1pLg8XXjeAOyL0yS67II9ZQT6Tf_0CSYJGYatNg8OaLBSFzZ-wNuW-grp8uSrDFDHIELfrJO_JRiCv-jufrK7wrngbeBVpk-i-liZKgXaeUnBOToE3cp5jhVZL3r3XtScIWc8ulJkaTB5PjlWbc8QsBiReQhIuEq7xR7eXntgHiB3FJhp4cLdJm6SzP3VXDwprqf5mjTutnrbaEk7riShEhiwIs6ByIhQoV1m9QbdTNuBudWwGZnaDLatH55kcaxAW7x6lejLN9oT3cAylo7FBgj1ZgsSUe6a6NZxSbVZDRGF8FFLxRLqM9H1LGrH1kxbWYWf5Ln2Jd2jduJV8qqFtqd9SZ0cJol8rnl7LBaHOseQ5_B1munAeWRolXwCdeSbX1QM113a_ByuIKy1VTO7B369Jjb4tp-_yTMVaAfcHyzq4wJTUkRpkjEnV2hYAo4YEvQbV7XFrT4IRp3HbtLKMePWT6gDPfcP3DmOo4dsTLFY0Lrmo8Nd2azCTHNa9OXvyCqDHBwo7GwXDMuio03tHfNGbj4WA8iUZRFDLGxtG4R7dIhYNJyCI2CYJRGEwmo8mhR5-7vsPBNGDTYBoFQxbesim77eEVJC7so_875EYXsqSHP1bURBU) -->
 
 <div align="center">
-  <a title="Tomas Ortega, EF diagram." href="https://github.com/TomasOrtega/CAFe"><img src="assets/images/mermaid.png" alt="EF block diagram" style="height: auto; width: 50%; max-width: 400px; border-radius: 8px; border: 1px solid #ddd;"/></a>
+  <a title="Tomas Ortega, EF diagram." href="https://github.com/TomasOrtega/CAFe"><img src="assets/images/mermaid.png" alt="EF block diagram" style="height: auto; width: 60%; max-width: 400px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
     Compressed aggregate error feedback block diagram.
@@ -83,7 +83,7 @@ A nice property of this framework is that it naturally accomodates networks with
 Currently, I'm interested in incorporating more aspects of real networks to bridge the gap between the practice and theory of decentralized learning.
 
 <div align="center">
-  <a title="Tomas Ortega, delay example." href="https://arxiv.org/abs/2405.19513"><img src="assets/images/delay_example.png" alt="Directed graph with delays" style="height: auto; width: 50%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd;"/></a>
+  <a title="Tomas Ortega, delay example." href="https://arxiv.org/abs/2405.19513"><img src="assets/images/delay_example.png" alt="Directed graph with delays" style="height: auto; width: 80%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
     An example of a directed graph with delays. The imaginary nodes (dashed) model delays in communication. 
@@ -97,7 +97,7 @@ I used to organize a group for people in the greater LA area to learn how to wri
 I have contributed to [Compfiles](https://github.com/dwrensha/compfiles/pull/65), [Sphere-Packing](https://github.com/thefundamentaltheor3m/Sphere-Packing-Lean/pull/134), and [OrderedSemigroups](https://github.com/ericluap/OrderedSemigroups), among others.
 
 <div align="center">
-  <a title="Lean, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Lean_logo2.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Lean_logo2.svg" alt="Lean Logo" style="height: auto; width: 30%; max-width: 250px; border-radius: 8px; border: 1px solid #ddd;margin-bottom: 2rem;"/></a>
+  <a title="Lean, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Lean_logo2.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Lean_logo2.svg" alt="Lean Logo" style="height: auto; width: 50%; max-width: 250px; border-radius: 8px; border: 1px solid #ddd;margin-bottom: 2rem;"/></a>
 </div>
 
 ### Error correcting codes from Generalized Quadrangles
@@ -110,7 +110,7 @@ This is a really desireable property if you want to construct error correcting c
 The repository also has [.alist](https://www.inference.org.uk/mackay/codes/alist.html) matrices to easily run LDPC simulations.
 
 <div align="center">
-  <a title="Wcherowi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GQ(2,2).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/GQ%282%2C2%29.svg" alt="GQ(2,2)" style="height: auto; width: 50%; max-width: 200px; border-radius: 8px; border: 1px solid #ddd;"/></a>
+  <a title="Wcherowi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GQ(2,2).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/GQ%282%2C2%29.svg" alt="GQ(2,2)" style="height: auto; width: 100%; max-width: 220px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
     Visualization of GQ(2,2).
@@ -128,7 +128,7 @@ As a part of this line of work, we derived an analytical approximation for Phase
 
 <div align="center">
   <a title="NASA/JPL-Caltech, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:675608main_edl20120809-full.jpg">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/675608main_edl20120809-full.jpg/960px-675608main_edl20120809-full.jpg" alt="EDL Visualization" style="height: auto; width: 60%; max-width: 960px; border-radius: 8px; border: 1px solid #ddd;"/></a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/675608main_edl20120809-full.jpg/960px-675608main_edl20120809-full.jpg" alt="EDL Visualization" style="height: auto; width: 100%; max-width: 480px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
     Mars EDL. Our system will help most in the Peak Deceleration phase.
