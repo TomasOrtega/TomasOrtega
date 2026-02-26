@@ -48,11 +48,12 @@ For my undergrad thesis I worked with the Communications Architectures and Resea
 
 # Research interests
 
-My research is focused on making distributed algorithms work in communication-constrained networks, with an emphasis on privacy-preserving Machine Learning. I derive theoretical bounds and demonstrate my results with practical implementations. This includes algorithms for Federated Learning and Decentralized Control.
+My work bridges theory and practice by incorporating real-world network constraints into the analysis of collaborative systems.
+I'm broadly interested in optimization, information theory, and AI, but my core research focuses on:
 
-To bridge the gap between theory and practice, I am currently incorporating real-world network constraints into the analysis of collaborative learning.
-
-More broadly, I am interested in optimization, information theory and AI.
+* Distributed algorithms: Designing solutions for communication-constrained networks, including decentralized optimization.
+* Privacy-Preserving ML: Building secure Federated Learning frameworks that protect data without sacrificing performance.
+* Theory meets practice: Deriving theoretical bounds and validating them through practical implementations.
 
 # Some highlighted projects
 
