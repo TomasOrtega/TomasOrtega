@@ -54,6 +54,28 @@ More broadly, I am interested in optimization, information theory and AI.
 
 # Some highlighted projects
 
+### Decentralized Online Learning without Learning Rates
+
+Tuning learning rates is a major pain point in online learning.
+In the decentralized setting, this problem is worse nodes have to coordinate between them.
+
+In [this work](https://arxiv.org/abs/2510.15644), we proposed a method to perform decentralized online learning without learning rates, and with sublinear network regret bounds.
+To achieve this, we extended the [*parameter-free* framework from Francesco Orabona and Dávid Pál](https://arxiv.org/abs/1602.04128) with a gossip consensus scheme.
+We also developed a new betting-function framework inspired by this work, which is more amenable for analysis, and which we believe is of independent interest.
+
+We found that our analysis needed a linear gossip schedule (in learning round *t*, we perform *t* rounds of gossip) to achieve sublinear regret bounds, which is impractical. However, in practice, we can get away with a constant number of gossip rounds in all our experiments.
+We conjecture that the linear gossip schedule is an artifact of our analysis, and that a constant gossip schedule is sufficient, but proving this is an open problem.
+
+The code for this project is available [here](https://github.com/TomasOrtega/Deco).
+
+<div align="center">
+  <a title="MarcT0K (icons by JGraph), CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Federated_learning"><img src="assets/images/decentralized.png" alt="Decentralized learning cartoon" style="height: auto; width: 100%; max-width: 220px; border-radius: 8px; border: 1px solid #ddd;"/></a>
+
+  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
+    Decentralized learning. Each node can only communicate with its neighbors, and there is no central server.
+  </div>
+</div>
+
 ### Privacy-preserving Error Feedback for Distributed Learning
 
 Practical distributed learning often uses biased aggressive compression for communication from the clients to the server. However, to guarantee convergence, we need client-specific control variates to perform error feedback.
@@ -86,7 +108,7 @@ Currently, I'm interested in incorporating more aspects of real networks to brid
   <a title="Tomas Ortega, delay example." href="https://arxiv.org/abs/2405.19513"><img src="assets/images/delay_example.png" alt="Directed graph with delays" style="height: auto; width: 80%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
-    An example of a directed graph with delays. The imaginary nodes (dashed) model delays in communication. 
+    An example of a directed graph with delays. The imaginary nodes (dashed) model delays in communication.
   </div>
 </div>
 
