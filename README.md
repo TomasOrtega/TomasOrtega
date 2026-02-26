@@ -67,7 +67,7 @@ Individual control variates kill privacy guarantees, and do not scale with the n
 <div align="center">
   <a title="Tomas Ortega, EF diagram." href="https://github.com/TomasOrtega/CAFe"><img src="assets/images/mermaid.png" alt="EF block diagram" style="height: auto; width: 50%; max-width: 400px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; display: inline-block;">
+  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%">
     Compressed aggregate error feedback block diagram.
   </div>
 </div>
@@ -85,7 +85,7 @@ Currently, I'm interested in incorporating more aspects of real networks to brid
 <div align="center">
   <a title="Tomas Ortega, delay example." href="https://arxiv.org/abs/2405.19513"><img src="assets/images/delay_example.png" alt="Directed graph with delays" style="height: auto; width: 50%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; display: inline-block;">
+  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%">
     An example of a directed graph with delays. The imaginary nodes (dashed) model delays in communication. 
   </div>
 </div>
@@ -112,7 +112,7 @@ The repository also has [.alist](https://www.inference.org.uk/mackay/codes/alist
 <div align="center">
   <a title="Wcherowi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GQ(2,2).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/GQ%282%2C2%29.svg" alt="GQ(2,2)" style="height: auto; width: 50%; max-width: 200px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; display: inline-block;">
+  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%">
     Visualization of GQ(2,2).
   </div>
 </div>
@@ -130,7 +130,7 @@ As a part of this line of work, we derived an analytical approximation for Phase
   <a title="NASA/JPL-Caltech, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:675608main_edl20120809-full.jpg">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/675608main_edl20120809-full.jpg/960px-675608main_edl20120809-full.jpg" alt="EDL Visualization" style="height: auto; width: 60%; max-width: 960px; border-radius: 8px; border: 1px solid #ddd;"/></a>
 
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; display: inline-block;">
+  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%">
     Mars EDL. Our system will help most in the Peak Deceleration phase.
   </div>
 </div>
