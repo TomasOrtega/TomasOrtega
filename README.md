@@ -50,6 +50,8 @@ For my undergrad thesis I worked with the Communications Architectures and Resea
 
 My research is focused on making distributed algorithms work in communication-constrained networks, with an emphasis on privacy-preserving Machine Learning. I derive theoretical bounds and demonstrate my results with practical implementations. This includes algorithms for Federated Learning and Decentralized Control.
 
+Currently, I'm working on incorporating more aspects of real networks to bridge the gap between the practice and theory of collaborative learning.
+
 More broadly, I am interested in optimization, information theory and AI.
 
 # Some highlighted projects
@@ -101,8 +103,6 @@ Decentralized optimization algorithms typically require communication between no
 In the directed case, existing algorithms required nodes to know how many listeners they have (knowledge of their out-degree). We proposed a [series of works](https://github.com/TomasOrtega/DT-GO) that circumvent this requirement.
 
 A nice property of this framework is that it naturally accomodates networks with delays, as one can add imaginary nodes to the network to model delays, and use the same analysis to obtain convergence guarantees.
-
-Currently, I'm interested in incorporating more aspects of real networks to bridge the gap between the practice and theory of decentralized learning.
 
 <div align="center">
   <a title="Tomas Ortega, delay example." href="https://arxiv.org/abs/2405.19513"><img src="assets/images/delay_example.png" alt="Directed graph with delays" style="height: auto; width: 80%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd;"/></a>
