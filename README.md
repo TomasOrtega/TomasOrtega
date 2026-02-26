@@ -57,7 +57,7 @@ More broadly, I am interested in optimization, information theory and AI.
 ### Decentralized online learning without learning rates
 
 Tuning learning rates is a major pain point in online learning.
-In the decentralized setting, this problem is worse nodes have to coordinate between them.
+In the decentralized setting, this problem is worse since nodes have to coordinate between them and may have different local optimal learning rates.
 
 In [this work](https://arxiv.org/abs/2510.15644), we proposed a method to perform decentralized online learning without learning rates, and with sublinear network regret bounds.
 To achieve this, we extended the [*parameter-free* framework from Francesco Orabona and Dávid Pál](https://arxiv.org/abs/1602.04128) with a gossip consensus scheme.
