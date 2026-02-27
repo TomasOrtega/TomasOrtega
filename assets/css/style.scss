@@ -48,8 +48,8 @@ footer,
 /* --- MAIN LAYOUT --- */
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .wrapper {
@@ -137,8 +137,6 @@ a.btn-cv:hover {
 }
 
 .shield-container a img {
-  max-width: 100% !important;
-  height: auto !important;
   border-radius: 4px;
   height: 40px;
   transition: all 0.3s ease;
