@@ -117,8 +117,7 @@ In 2021, Meta announced [FedBuff](https://ai.meta.com/research/publications/fede
 In plain words, the server waits for a certain number of client updates to arrive, and then performs an aggregation step (averaging over the clients in the buffer).
 
 However, their analysis did not consider communication compression, which is a key component of practical federated learning systems.
-We proposed [an algorithm](https://arxiv.org/abs/2405.19513) that has a similar buffered asynchronous structure, but which also has a *hidden-state* feedback mechanism to allow for highly aggressive communication compression.
-Our code is available [here](https://github.com/TomasOrtega/FLSim).
+We proposed [an algorithm](https://github.com/TomasOrtega/FLSim) that has a similar buffered asynchronous structure, but which also has a *hidden-state* feedback mechanism to allow for highly aggressive communication compression.
 
 We proved that our algorithm behaves nicely with respect to the compression parameter. Namely, the *asynchrony and compression error cross-terms are negligible* in the convergence rate!
 
