@@ -49,11 +49,8 @@ For my undergrad thesis I worked with the Communications Architectures and Resea
 # Research interests
 
 My work bridges theory and practice by incorporating real-world network constraints into the analysis of collaborative systems.
-I'm broadly interested in optimization, information theory, and AI, but my core research focuses on:
-
-* Distributed algorithms: Designing solutions for communication-constrained networks, including decentralized optimization.
-* Privacy-Preserving ML: Building secure Federated Learning frameworks that protect data without sacrificing performance.
-* Theory meets practice: Deriving theoretical bounds and validating them through practical implementations.
+I'm broadly interested in **optimization**, **information theory**, and **AI**.
+My core research focuses on distributed algorithms and privacy-preserving machine learning, particularly in the context of real-world communication networks.
 
 # Some highlighted projects
 
@@ -101,7 +98,8 @@ Individual control variates kill privacy guarantees, and do not scale with the n
 
 Decentralized optimization algorithms typically require communication between nodes to be bi-directional.
 
-In the directed case, existing algorithms required nodes to know how many listeners they have (knowledge of their out-degree). We proposed a [series of works](https://github.com/TomasOrtega/DT-GO) that circumvent this requirement.
+In the directed case, for non-convex losses, existing algorithms required nodes to know how many listeners they have (knowledge of their out-degree).
+We proposed a [series of works](https://github.com/TomasOrtega/DT-GO) that circumvent this requirement.
 
 A nice property of this framework is that it naturally accomodates networks with delays, as one can add imaginary nodes to the network to model delays, and use the same analysis to obtain convergence guarantees.
 
@@ -110,6 +108,29 @@ A nice property of this framework is that it naturally accomodates networks with
 
   <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
     An example of a directed graph with delays. The imaginary nodes (dashed) model delays in communication.
+  </div>
+</div>
+
+### Asynchronous federated learning meets compression
+
+In 2021, Meta announced [FedBuff](https://ai.meta.com/research/publications/federated-learning-with-buffered-asynchronous-aggregation/), a system for asynchronous federated learning with buffered aggregation.
+In plain words, the server waits for a certain number of client updates to arrive, and then performs an aggregation step (averaging over the clients in the buffer).
+
+However, their analysis did not consider communication compression, which is a key component of practical federated learning systems.
+We proposed [an algorithm](https://arxiv.org/abs/2405.19513) that has a similar buffered asynchronous structure, but which also has a *hidden-state* feedback mechanism to allow for highly aggressive communication compression.
+Our code is available [here](https://github.com/TomasOrtega/FLSim).
+
+We proved that our algorithm behaves nicely with respect to the compression parameter. Namely, the *asynchrony and compression error cross-terms are negligible* in the convergence rate!
+
+Our analysis revealed a bug in the original FedBuff convergence proof, which we fixed.
+Plus, we did not require the bounded gradient assumption that the original FedBuff paper made.
+Independently, [Mohammad Taha Toghani and César A. Uribe](https://arxiv.org/abs/2210.01161) had also proposed a fix for this proof, but they did not consider compression.
+
+<div align="center">
+  <a title="Tomas Ortega, Logistic Regression with QAFeL" href="https://github.com/TomasOrtega/FLSim/blob/main/logistic_regression/results/logistic_regression.png"><img src="https://raw.githubusercontent.com/TomasOrtega/FLSim/refs/heads/main/logistic_regression/results/logistic_regression.png" alt="Logistic regression experiment plot with our proposed algorithm" width="400" style="border-radius: 8px; border: 1px solid #ddd;"/></a>
+
+  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
+    Logistic regression experiment with our proposed algorithm. Similarly to what is observed in the synchronous regime, more local steps mean faster convergence to a more suboptimal point.
   </div>
 </div>
 
