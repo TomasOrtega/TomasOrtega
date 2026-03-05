@@ -180,4 +180,4 @@ As a part of this line of work, we derived an analytical approximation for Phase
 
 ### If you made it this far
 
-Here is a [Snake game](https://github.com/TomasOrtega/JavaSnake) I coded in Java.
+Here is a [Snake game](https://github.com/TomasOrtega/JavaSnake) I coded in Java, or if you're into NBA nerd stats stuff, check out [Hardwood Heuristics](https://tomasortega.github.io/Hardwood-Heuristics/), where I try to see if some basketball tropes are actually backed up by data.
