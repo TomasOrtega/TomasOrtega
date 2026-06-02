@@ -4,9 +4,9 @@
   <h1>Tomàs Ortega</h1>
   
   <p>
-    <b>PhD Candidate</b><br>
-    Electrical Engineering and Computer Science<br>
-    University of California, Irvine
+    <b>Research Software Engineer</b><br>
+    Princeton Language and Intelligence<br>
+    Princeton University
   </p>
 
   <div class="shield-container">
@@ -39,8 +39,10 @@
 </div>
 
 Originally, I am from Sant Cugat (near Barcelona) but I've lived in Madison, Pasadena, Irvine, and now in Philadelphia.
+I completed my PhD in Electrical Engineering and Computer Science at the University of California, Irvine. 
+Currently, I'm a Research Software Engineer with the [Princeton Language and Intelligence](https://pli.princeton.edu/) group at Princeton University.
 
-My doctoral advisor is [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en), at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/), and at Nokia Bell Labs (Murray Hill) with [Sahil Tikale](https://www.nokia.com/people/sahil-tikale/).
+My doctoral advisor was [Hamid Jafarkhani](https://www.ece.uci.edu/~hamidj/), and I have previously been at NASA's JPL with [Marc Sanchez-Net](https://scholar.google.com/citations?user=0C0EdK8AAAAJ&hl=en), at the Vector Institute with [Xiaoxiao Li](https://xxlya.github.io/), and at Nokia Bell Labs (Murray Hill) with [Sahil Tikale](https://www.nokia.com/people/sahil-tikale/).
 
 Before joining UCI, I graduated from Universitat Politècnica de Catalunya with a double degree in Mathematics and Electrical Engineering as part of the [CFIS program](https://cfis.upc.edu/en), and a MS in [Advanced Mathematics and Mathematical Engineering](https://mamme.masters.upc.edu/en), focused on discrete mathematics and information theory.
 
