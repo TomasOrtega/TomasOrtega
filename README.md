@@ -52,7 +52,7 @@ For my undergrad thesis I worked with the Communications Architectures and Resea
 
 My work bridges theory and practice by incorporating real-world network constraints into the analysis of collaborative systems.
 I'm broadly interested in **optimization**, **information theory**, and **AI**.
-My core dissertation focused on distributed algorithms and privacy-preserving machine learning, particularly in the context of real-world communication networks.
+My dissertation focused on distributed algorithms and privacy-preserving machine learning, particularly in the context of real-world communication networks.
 Recently, I have been interested in **AI for theorem proving** and **formalized mathematics**.
 
 # Some highlighted projects
