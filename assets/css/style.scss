@@ -68,6 +68,31 @@ section {
   padding: 0 !important;
 }
 
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 0 2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-nav a {
+  padding: 0.5rem 1rem;
+  border-bottom: 3px solid transparent;
+  color: #555;
+}
+
+.site-nav a:hover {
+  border-bottom-color: #aaa;
+  text-decoration: none;
+}
+
+.site-nav a[aria-current="page"] {
+  border-bottom-color: #2a7ae2;
+  color: #222;
+  font-weight: 700 !important;
+}
+
 /* --- IMAGE & MEDIA FIXES --- */
 
 #profile-pic {
