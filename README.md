@@ -4,7 +4,7 @@
 </nav>
 
 <div align="center">
-  <img src="https://github.com/TomasOrtega.png" width="180px" height="180px" id="profile-pic" alt="Tomas Ortega" style="border-radius: 50%; object-fit: cover; border: 3px solid #eee;"/>
+  <div id="profile-pic" role="img" aria-label="Tomàs Ortega"></div>
 
   <h1>Tomàs Ortega</h1>
 

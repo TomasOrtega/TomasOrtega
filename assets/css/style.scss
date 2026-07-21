@@ -95,13 +95,16 @@ section {
 
 /* --- IMAGE & MEDIA FIXES --- */
 
+/* Site-only: empty #profile-pic in README is invisible on GitHub (no CSS). */
 #profile-pic {
-  border-radius: 50% !important;
-  object-fit: cover !important;
-  border: 3px solid #eee !important;
+  display: block;
   width: 180px;
   height: 180px;
-  max-width: 80% !important;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid #eee;
+  background: url("https://github.com/TomasOrtega.png") center / cover no-repeat;
 }
 
 /* CODE BLOCKS */
