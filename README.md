@@ -1,6 +1,6 @@
-<nav class="site-nav" aria-label="Primary navigation">
-  <a href="https://tomasortega.net/" aria-current="page">About</a>
-  <a href="https://tomasortega.net/projects/">Projects</a>
+<nav class="site-nav site-only-nav" aria-label="Primary navigation">
+  <a href="https://tomasortega.net/" aria-label="About" data-label="About" aria-current="page"></a>
+  <a href="https://tomasortega.net/projects/" aria-label="Projects" data-label="Projects"></a>
 </nav>
 
 <div align="center">

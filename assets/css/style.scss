@@ -93,6 +93,11 @@ section {
   font-weight: 700 !important;
 }
 
+/* Site-only: empty links in README stay invisible on GitHub. */
+.site-only-nav a::before {
+  content: attr(data-label);
+}
+
 /* --- IMAGE & MEDIA FIXES --- */
 
 /* Site-only: empty #profile-pic in README is invisible on GitHub (no CSS). */
