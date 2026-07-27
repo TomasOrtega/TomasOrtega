@@ -7,8 +7,10 @@
 Use Ruby 4.0. `.ruby-version` pins the deployment version; local patch releases in the same series also work.
 
 ```sh
+brew install prek
 bundle config set --local path .bundle/gems
 bundle install
+prek install
 ```
 
 ## Preview
@@ -22,10 +24,12 @@ Open [http://127.0.0.1:4000](http://127.0.0.1:4000). Jekyll rebuilds the website
 ## Validate
 
 ```sh
-script/check
+prek run --all-files
 ```
 
-This builds `_site` and checks the workflow, local links, image text, unused image assets, and deployment contents.
+This runs formatting and syntax checks, RuboCop, ShellCheck, Markdownlint, Actionlint, a zizmor security audit, and the
+site build. The site checks cover local links, image text, unused image assets, and deployment contents. Run
+`script/check` directly when you only need the Jekyll build and site-specific checks.
 
 ## Deploy
 
@@ -45,4 +49,6 @@ Keep `CNAME`; it records the custom domain in the deployed artifact.
 - `assets/css/style.scss`: website styles
 - `script/preview`: local website server
 - `script/check`: production build and validation
+- `.pre-commit-config.yaml`: prek checks
+- `.github/dependabot.yml`: dependency update schedule
 - `.github/workflows/pages.yml`: CI and deployment

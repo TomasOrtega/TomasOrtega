@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
 # Match the GitHub Pages Jekyll and Markdown versions used by this site.
@@ -10,3 +12,7 @@ gem "kramdown-parser-gfm", "1.1.0"
 gem "base64", "0.3.0"
 gem "bigdecimal", "4.1.2"
 gem "webrick", "1.9.2"
+
+group :development do
+  gem "rubocop", "~> 1.88.0", require: false
+end
