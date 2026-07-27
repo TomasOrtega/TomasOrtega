@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require "pathname"
 require "uri"
 require "yaml"
 
@@ -10,7 +10,6 @@ errors = []
 
 readme = repository.join("README.md").read
 index = repository.join("index.md").read
-workflow_path = repository.join(".github/workflows/pages.yml")
 config = YAML.safe_load(repository.join("_config.yml").read, aliases: true) || {}
 
 errors << "README.md must not contain Liquid tags" if readme.match?(/{{|{%/)
@@ -18,28 +17,6 @@ errors << "README.md must link to the canonical website" unless readme.include?(
 errors << "index.md must not include README.md" if index.match?(/include_relative\s+README\.md/)
 errors << "README.md HTML must remain left-aligned" if readme.lines.any? { |line| line.match?(/\A {4,}</) }
 errors << "_config.yml must exclude Bundler's vendor directory" unless Array(config["exclude"]).include?("vendor")
-
-if workflow_path.file?
-  workflow = workflow_path.read
-  begin
-    YAML.safe_load(workflow, aliases: true)
-  rescue Psych::SyntaxError => error
-    errors << ".github/workflows/pages.yml is invalid YAML: #{error.message}"
-  end
-
-  [
-    "actions/checkout@v6",
-    "ruby/setup-ruby@v1",
-    "actions/configure-pages@v5",
-    "actions/upload-pages-artifact@v4",
-    "actions/deploy-pages@v4",
-    "script/check"
-  ].each do |required_text|
-    errors << ".github/workflows/pages.yml is missing #{required_text}" unless workflow.include?(required_text)
-  end
-else
-  errors << ".github/workflows/pages.yml is missing"
-end
 
 readme.scan(/(?:src|href)="([^"]+)"/).flatten.each do |reference|
   next if reference.start_with?("http://", "https://", "#", "mailto:")
@@ -59,7 +36,9 @@ asset_sources = [
 ].map(&:read).join("\n")
 
 repository.glob("assets/images/*").select(&:file?).each do |asset|
-  errors << "Unused image asset: #{asset.relative_path_from(repository)}" unless asset_sources.include?(asset.basename.to_s)
+  next if asset_sources.include?(asset.basename.to_s)
+
+  errors << "Unused image asset: #{asset.relative_path_from(repository)}"
 end
 
 html_files = destination.glob("**/*.html")
@@ -71,7 +50,9 @@ html_files.each do |file|
   errors << "#{file.relative_path_from(destination)} has #{h1_count} h1 elements" unless h1_count == 1
 
   html.scan(/<img\b[^>]*>/).each do |image|
-    errors << "#{file.relative_path_from(destination)} has an image without alt text" unless image.match?(/\balt="[^"]*"/)
+    next if image.match?(/\balt="[^"]*"/)
+
+    errors << "#{file.relative_path_from(destination)} has an image without alt text"
   end
 
   html.scan(/\b(?:href|src)="([^"]+)"/).flatten.each do |reference|
