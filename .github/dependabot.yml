@@ -8,6 +8,8 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/New_York"
+    cooldown:
+      default-days: 7
     groups:
       ruby-dependencies:
         patterns:
@@ -22,6 +24,8 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/New_York"
+    cooldown:
+      default-days: 7
     groups:
       github-actions:
         patterns:
@@ -36,6 +40,8 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/New_York"
+    cooldown:
+      default-days: 7
     groups:
       prek-hooks:
         patterns:
