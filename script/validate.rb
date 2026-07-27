@@ -11,11 +11,13 @@ errors = []
 readme = repository.join("README.md").read
 index = repository.join("index.md").read
 workflow_path = repository.join(".github/workflows/pages.yml")
+config = YAML.safe_load(repository.join("_config.yml").read, aliases: true) || {}
 
 errors << "README.md must not contain Liquid tags" if readme.match?(/{{|{%/)
 errors << "README.md must link to the canonical website" unless readme.include?("https://tomasortega.net")
 errors << "index.md must not include README.md" if index.match?(/include_relative\s+README\.md/)
 errors << "README.md HTML must remain left-aligned" if readme.lines.any? { |line| line.match?(/\A {4,}</) }
+errors << "_config.yml must exclude Bundler's vendor directory" unless Array(config["exclude"]).include?("vendor")
 
 if workflow_path.file?
   workflow = workflow_path.read
@@ -102,7 +104,8 @@ errors << "Jekyll did not compile assets/css/style.css" unless stylesheet.file? 
   "Gemfile",
   "Gemfile.lock",
   "README.md",
-  "script"
+  "script",
+  "vendor"
 ].each do |excluded_path|
   errors << "Jekyll artifact contains development file: #{excluded_path}" if destination.join(excluded_path).exist?
 end
