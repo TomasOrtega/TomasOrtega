@@ -1,13 +1,9 @@
 ---
 layout: default
 title: Highlighted projects
+description: "Research and side projects spanning distributed learning, formalized mathematics, coding theory, and space communications."
 permalink: /projects/
 ---
-
-<nav class="site-nav" aria-label="Primary navigation">
-  <a href="https://tomasortega.net/">About</a>
-  <a href="https://tomasortega.net/projects/" aria-current="page">Projects</a>
-</nav>
 
 # Highlighted projects
 
@@ -28,13 +24,17 @@ We conjecture that the linear schedule is an artifact of our analysis and that a
 
 The code for this project is available [on GitHub](https://github.com/TomasOrtega/Deco).
 
-<div align="center">
-  <a title="MarcT0K (icons by JGraph), CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Federated_learning"><img src="https://tomasortega.net/assets/images/decentralized.png" alt="Decentralized learning cartoon" width="220" style="border-radius: 8px; border: 1px solid #ddd;"/></a>
-
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
-    Decentralized learning. Each node can communicate only with its neighbors; there is no central server.
-  </div>
-</div>
+{% include project-figure.html
+  src="/assets/images/decentralized.png"
+  alt="Decentralized learning cartoon"
+  width="220"
+  href="https://en.wikipedia.org/wiki/Federated_learning"
+  title="MarcT0K (icons by JGraph), CC BY-SA 4.0, via Wikimedia Commons"
+  caption="Decentralized learning. Each node can communicate only with its neighbors; there is no central server."
+  credit="MarcT0K (icons by JGraph), via Wikimedia Commons"
+  license="CC BY-SA 4.0"
+  license_url="https://creativecommons.org/licenses/by-sa/4.0/"
+%}
 
 ## Privacy-preserving error feedback for distributed learning
 
@@ -46,13 +46,14 @@ To address this, we proposed [a framework](https://arxiv.org/abs/2512.22623) tha
 This permits highly aggressive compression without the privacy and scaling problems of client-specific control variates.
 The open-source code is available [on GitHub](https://github.com/TomasOrtega/CAFe).
 
-<div align="center">
-  <a title="Tomas Ortega, EF diagram." href="https://github.com/TomasOrtega/CAFe"><img src="https://tomasortega.net/assets/images/mermaid.png" alt="Aggregate error feedback block diagram" width="400" style="border-radius: 8px; border: 1px solid #ddd;"/></a>
-
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
-    Compressed aggregate error feedback block diagram.
-  </div>
-</div>
+{% include project-figure.html
+  src="/assets/images/mermaid.png"
+  alt="Aggregate error feedback block diagram"
+  width="400"
+  href="https://github.com/TomasOrtega/CAFe"
+  title="Tomàs Ortega, aggregate error feedback diagram"
+  caption="Compressed aggregate error feedback block diagram."
+%}
 
 ## Truly decentralized learning on directed graphs
 
@@ -63,13 +64,14 @@ We proposed a [line of work](https://github.com/TomasOrtega/DT-GO) that avoids t
 
 The framework also naturally accommodates network delays: we can add imaginary nodes to model delayed communication and use the same analysis to obtain convergence guarantees.
 
-<div align="center">
-  <a title="Tomas Ortega, delay example." href="https://arxiv.org/abs/2405.19513"><img src="https://tomasortega.net/assets/images/delay_example.png" alt="Directed graph with delays" width="300" style="border-radius: 8px; border: 1px solid #ddd;"/></a>
-
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
-    An example of a directed graph with delays. The imaginary nodes (dashed) model communication delays.
-  </div>
-</div>
+{% include project-figure.html
+  src="/assets/images/delay_example.png"
+  alt="Directed graph with delays"
+  width="300"
+  href="https://arxiv.org/abs/2405.19513"
+  title="Tomàs Ortega, delay example"
+  caption="An example of a directed graph with delays. The imaginary nodes (dashed) model communication delays."
+%}
 
 ## Asynchronous federated learning meets compression
 
@@ -84,13 +86,14 @@ We proved that the algorithm behaves nicely with respect to the compression para
 Our analysis also revealed and fixed a bug in the original FedBuff convergence proof, without requiring its bounded-gradient assumption.
 Independently, [Mohammad Taha Toghani and César A. Uribe](https://arxiv.org/abs/2210.01161) proposed another fix, though without considering compression.
 
-<div align="center">
-  <a title="Tomas Ortega, Logistic Regression with QAFeL" href="https://github.com/TomasOrtega/FLSim/blob/main/logistic_regression/results/logistic_regression.png"><img src="https://raw.githubusercontent.com/TomasOrtega/FLSim/refs/heads/main/logistic_regression/results/logistic_regression.png" alt="Logistic regression experiment plot with our proposed algorithm" width="400" style="border-radius: 8px; border: 1px solid #ddd;"/></a>
-
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
-    Logistic regression with our proposed algorithm. As in the synchronous regime, more local steps mean faster convergence to a more suboptimal point.
-  </div>
-</div>
+{% include project-figure.html
+  src="/assets/images/logistic-regression.png"
+  alt="Logistic regression experiment plot with our proposed algorithm"
+  width="400"
+  href="https://github.com/TomasOrtega/FLSim/blob/main/logistic_regression/results/logistic_regression.png"
+  title="Tomàs Ortega, logistic regression with QAFeL"
+  caption="Logistic regression with our proposed algorithm. As in the synchronous regime, more local steps mean faster convergence to a more suboptimal point."
+%}
 
 ## Proving stuff with Lean
 
@@ -98,9 +101,14 @@ On the side, I enjoy theorem proving with Lean and would like to formalize more 
 I used to organize a group for people in the greater Los Angeles area to learn how to write mathematical proofs in Lean.
 I have contributed to [Compfiles](https://github.com/dwrensha/compfiles/pull/65), [Sphere-Packing](https://github.com/thefundamentaltheor3m/Sphere-Packing-Lean/pull/134), and [OrderedSemigroups](https://github.com/ericluap/OrderedSemigroups), among other projects.
 
-<div align="center">
-  <a title="Lean, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Lean_logo2.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Lean_logo2.svg" alt="Lean logo" width="250" style="border-radius: 8px; border: 1px solid #ddd; margin-bottom: 2rem;"/></a>
-</div>
+{% include project-figure.html
+  src="/assets/images/lean-logo.svg"
+  alt="Lean logo"
+  width="250"
+  href="https://commons.wikimedia.org/wiki/File:Lean_logo2.svg"
+  title="Lean, public domain, via Wikimedia Commons"
+  credit="Lean, public domain, via Wikimedia Commons"
+%}
 
 ## Error-correcting codes from generalized quadrangles
 
@@ -111,13 +119,17 @@ Using these constructions, we built what is, to our knowledge, [the largest repo
 The matrices are also quasi-cyclic, a desirable property when constructing error-correcting codes from generalized quadrangles.
 The repository includes matrices in the [.alist format](https://www.inference.org.uk/mackay/codes/alist.html) for running LDPC simulations.
 
-<div align="center">
-  <a title="Wcherowi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GQ(2,2).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/GQ%282%2C2%29.svg" alt="GQ(2,2)" width="220" style="border-radius: 8px; border: 1px solid #ddd;"/></a>
-
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
-    Visualization of GQ(2,2).
-  </div>
-</div>
+{% include project-figure.html
+  src="/assets/images/gq-2-2.svg"
+  alt="GQ(2,2)"
+  width="220"
+  href="https://commons.wikimedia.org/wiki/File:GQ(2,2).svg"
+  title="Wcherowi, CC BY-SA 4.0, via Wikimedia Commons"
+  caption="Visualization of GQ(2,2)."
+  credit="Wcherowi, via Wikimedia Commons"
+  license="CC BY-SA 4.0"
+  license_url="https://creativecommons.org/licenses/by-sa/4.0/"
+%}
 
 ## Maintaining communication while entering the Martian atmosphere
 
@@ -128,15 +140,15 @@ This system will be implemented in the next generation of NASA's spacecraft radi
 
 As part of this work, we also derived an analytical approximation for the frequency-error standard deviation of phase-locked loops, which is of independent interest.
 
-<div align="center">
-  <a title="NASA/JPL-Caltech, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:675608main_edl20120809-full.jpg">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/675608main_edl20120809-full.jpg/960px-675608main_edl20120809-full.jpg" alt="Mars Entry, Descent, and Landing visualization" width="480" style="border-radius: 8px; border: 1px solid #ddd;"/>
-  </a>
-
-  <div style="font-size: 0.85rem; color: #666; font-style: italic; max-width: 80%; margin-bottom: 2rem;">
-    Mars Entry, Descent, and Landing. Our system helps most during peak deceleration.
-  </div>
-</div>
+{% include project-figure.html
+  src="/assets/images/mars-edl.jpg"
+  alt="Mars Entry, Descent, and Landing visualization"
+  width="480"
+  href="https://commons.wikimedia.org/wiki/File:675608main_edl20120809-full.jpg"
+  title="NASA/JPL-Caltech, public domain, via Wikimedia Commons"
+  caption="Mars Entry, Descent, and Landing. Our system helps most during peak deceleration."
+  credit="NASA/JPL-Caltech, public domain, via Wikimedia Commons"
+%}
 
 ## Just for fun
 
