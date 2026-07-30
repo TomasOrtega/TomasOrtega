@@ -56,20 +56,20 @@ Editing notes retained from the previous CV:
 
 - **Jun 2026-Present: Research Software Engineer at Princeton University.** Research and tool development in AI
   for mathematics; Princeton.
-- **Summer 2025: Research Intern at Nokia Bell Labs.** Designed trustless decentralized data storage and
+- **Jun-Aug 2025: Research Intern at Nokia Bell Labs.** Designed trustless decentralized data storage and
   management systems; Murray Hill.
-- **Summer 2024: Research Intern at the Vector Institute.** Investigated and improved the optimization of large
+- **Jun-Aug 2024: Research Intern at the Vector Institute.** Investigated and improved the optimization of large
   language models in federated learning scenarios; Toronto.
-- **Summer 2022: Graduate Fellow at NASA Jet Propulsion Laboratory.** Designed and supervised experimental
+- **Jun-Aug 2022: Graduate Fellow at NASA Jet Propulsion Laboratory.** Designed and supervised experimental
   channel-sounding tests for Lunar South Pole communications and developed novel algorithms for cooperative and
   compressed localization; Pasadena.
-- **Fall 2020: Research Assistant at UPC, Signal Theory and Communications Department.** Designed and optimized
+- **Sep-Dec 2020: Research Assistant at UPC, Signal Theory and Communications Department.** Designed and optimized
   5G coverage estimators in urban scenarios, then implemented and tested the proposed solutions; Barcelona.
 - **Feb-Jul 2020: JVSRP Intern at NASA Jet Propulsion Laboratory.** Developed and implemented an adaptive-sweep
   algorithm for carrier acquisition and tracking in spacecraft radios; Pasadena.
-- **Winter 2019: Research Project Collaborator at HP.** Designed an ultrasound positioning system for mobile
+- **Jan-Mar 2019: Research Project Collaborator at HP.** Designed an ultrasound positioning system for mobile
   printers with a sensor network, specializing in position calculation and communications software; Barcelona.
-- **Summer 2018: Summer Intern at BaseTIS.** Enhanced task automation and parallelization for data analysis and
+- **Jun-Aug 2018: Intern at BaseTIS.** Enhanced task automation and parallelization for data analysis and
   reporting for Gas Natural Informática; Barcelona.
 {: .cv-entries}
 
@@ -160,9 +160,9 @@ Inactive award organization and entries retained from the previous CV:
 
 ## Teaching
 
-- **Winter 2026: Probability for Engineers**, EECS 55, Irvine.
-- **Winter 2025: Probability for Engineers**, EECS 55, Irvine.
-- **Winter 2024: Probability for Engineers**, EECS 55, Irvine.
+- **Jan-Mar 2026: Probability for Engineers**, EECS 55, Irvine.
+- **Jan-Mar 2025: Probability for Engineers**, EECS 55, Irvine.
+- **Jan-Mar 2024: Probability for Engineers**, EECS 55, Irvine.
 {: .cv-entries}
 
 ## Leadership and Service
