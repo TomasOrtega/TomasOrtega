@@ -96,9 +96,10 @@ Editing notes retained from the previous CV:
 ## Patents and Intellectual Property
 
 - **2024: Systems and Methods for Quantized Machine Learning, Federated Learning and Bidirectional Network
-  Communication.** Patent pending; [USPA record](https://www.freepatentsonline.com/y2024/0354589.html).
+  Communication.** Patent pending;
+  [US 2024/0354589 A1](https://www.freepatentsonline.com/y2024/0354589.html).
 - **2023: Quasi-Cyclic LDPC Codes Based on Generalised Quadrangles.** National phase pending;
-  [WIPO record](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023218050&_cid=P11-LP8MC2-94041-1).
+  [WO 2023/218050 A1](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023218050&_cid=P11-LP8MC2-94041-1).
 {: .cv-entries}
 
 {% comment %}
