@@ -50,7 +50,7 @@ repos:
         pass_filenames: false
         always_run: true
       - id: site
-        name: Build and validate site
+        name: Build site
         entry: script/check
         language: system
         pass_filenames: false

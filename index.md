@@ -21,7 +21,7 @@ permalink: /
     <a rel="me" href="https://mathstodon.xyz/@tomasortega"><img src="https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&amp;logo=mastodon&amp;logoColor=white" alt="Mastodon"></a>
   </div>
 
-  <p><a href="https://tomasortega.github.io/CV.pdf">View my CV</a></p>
+  <p><a href="{{ "/cv/" | relative_url }}">View my CV</a></p>
 </div>
 
 I'm originally from Sant Cugat, near Barcelona, and have lived in Madison, Pasadena, Irvine, and now Philadelphia.

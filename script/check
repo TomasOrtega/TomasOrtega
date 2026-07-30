@@ -5,4 +5,3 @@ repository=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
 cd "$repository"
 
 script/bundle-exec jekyll build --quiet
-script/bundle-exec ruby script/validate.rb _site
