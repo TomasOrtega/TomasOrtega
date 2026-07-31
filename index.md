@@ -19,9 +19,8 @@ permalink: /
     <a href="https://twitter.com/tomas__ortega"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="X"></a>
     <a href="https://www.linkedin.com/in/tomas-ortega-sc/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
     <a rel="me" href="https://mathstodon.xyz/@tomasortega"><img src="https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&amp;logo=mastodon&amp;logoColor=white" alt="Mastodon"></a>
+    <a href="{{ "/cv/" | relative_url }}"><img src="https://img.shields.io/badge/View%20my%20CV-2A7AE2?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="View my CV"></a>
   </div>
-
-  <p><a href="{{ "/cv/" | relative_url }}">View my CV</a></p>
 </div>
 
 I'm originally from Sant Cugat, near Barcelona, and have lived in Madison, Pasadena, Irvine, and now Philadelphia.

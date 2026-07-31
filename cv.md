@@ -6,20 +6,19 @@ permalink: /cv/
 cv: true
 ---
 
+<div class="cv-heading">
 <div class="cv-header" markdown="1">
 
 # Tomàs Ortega
 
-**Email:** [tomas.ortega@princeton.edu](mailto:tomas.ortega@princeton.edu) |
-**Website:** [tomasortega.net](https://tomasortega.net/) |
-**LinkedIn:** [linkedin.com/in/tomas-ortega-sc](https://www.linkedin.com/in/tomas-ortega-sc)
+[tomas.ortega@princeton.edu](mailto:tomas.ortega@princeton.edu) · [tomasortega.net](https://tomasortega.net/)
 {: .cv-contact}
 
 </div>
 
-<div class="cv-actions">
-  <button class="cv-print-button" type="button" data-print-cv>Print or save as PDF</button>
-  <p>Use A4 paper at 100% scale and turn off browser headers and footers.</p>
+<div>
+  <button class="cv-print-button" type="button" data-print-cv>Print / save as PDF</button>
+</div>
 </div>
 
 Research Software Engineer at Princeton University, working on AI for (formalized) mathematics.

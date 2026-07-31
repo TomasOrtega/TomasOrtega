@@ -132,10 +132,11 @@ img {
 
 .social-links {
   display: flex;
+  max-width: 36rem;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.3rem;
-  margin: 1rem 0;
+  gap: 0.45rem;
+  margin: 1rem auto;
 }
 
 .social-links a {
@@ -144,7 +145,7 @@ img {
 
 .social-links img {
   width: auto;
-  height: 24px;
+  height: 32px;
   border-radius: 4px;
 }
 
@@ -174,9 +175,16 @@ img {
   font-style: normal;
 }
 
-.cv-header {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
+.cv-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cv-heading > div:first-child {
+  min-width: 0;
 }
 
 .cv-header h1 {
@@ -192,36 +200,22 @@ img {
   font-size: 0.9rem;
 }
 
-.cv-actions {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1rem;
-  margin: 1.25rem 0 2rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.cv-actions p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
 .cv-print-button {
   flex: none;
-  padding: 0.45rem 0.7rem;
-  border: 1px solid var(--link);
-  border-radius: 4px;
-  color: #fff;
-  background: var(--link);
+  margin-top: 4px;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--heading);
+  border-radius: 2px;
+  color: var(--heading);
+  background: transparent;
   font: inherit;
-  font-weight: 700;
+  white-space: nowrap;
   cursor: pointer;
 }
 
 .cv-print-button:hover {
-  background: #1769c2;
+  color: #fff;
+  background: var(--heading);
 }
 
 .cv-entries,
@@ -263,35 +257,35 @@ img {
     height: 150px;
   }
 
-  .cv-actions {
-    align-items: stretch;
-    flex-direction: column;
+  .cv-heading {
+    display: block;
   }
 
   .cv-print-button {
-    width: 100%;
+    margin-top: 1.25rem;
   }
 }
 
 @media print {
   @page {
     size: A4;
-    margin: 18mm 20mm;
+    margin: 14mm 18mm;
   }
 
   .cv-page {
     color: #000;
     background: #fff;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 10pt;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 9pt;
     font-variant-ligatures: none;
-    line-height: 1.25;
+    line-height: 1.4;
     hyphens: none;
+    print-color-adjust: exact;
   }
 
   .cv-page .skip-link,
   .cv-page .site-header,
-  .cv-page .cv-actions {
+  .cv-page .cv-print-button {
     display: none;
   }
 
@@ -302,75 +296,61 @@ img {
     font-family: inherit;
   }
 
+  .cv-heading {
+    display: block;
+    margin: 0;
+  }
+
   .cv-header {
-    margin: 0 0 8pt;
-    padding: 0 0 5pt;
-    border-bottom: 1pt solid #000;
     break-inside: avoid-page;
-    page-break-inside: avoid;
   }
 
   .cv-header h1 {
     margin: 0 0 2pt;
-    font-size: 22pt;
-    font-weight: 700;
-    line-height: 1;
+    color: #000;
+    font: 700 20pt/1.05 Georgia, "Times New Roman", serif;
+    letter-spacing: 0;
+    text-align: center;
   }
 
   .cv-contact {
-    margin: 1pt 0 0;
-    font-size: 9pt;
-    line-height: 1.2;
+    margin: 0 0 10pt;
+    padding-bottom: 7pt;
+    border-bottom: 1pt solid #000;
+    font: inherit;
+    text-align: center;
   }
 
   .site-main--cv h2 {
-    margin: 9pt 0 3pt;
-    padding: 0 0 1pt;
-    border-bottom: 0.5pt solid #000;
+    margin: 12pt 0 5pt;
+    padding: 0 0 2.5pt;
+    border-bottom: 0.7pt solid #777;
     color: #000;
-    font-size: 12pt;
-    font-weight: 700;
-    line-height: 1.15;
+    font: 700 10.5pt/1.15 "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
     break-after: avoid-page;
-    page-break-after: avoid;
   }
 
   .site-main--cv p {
-    margin: 2pt 0;
+    margin: 0 0 6pt;
     orphans: 3;
-    text-align: left;
     widows: 3;
   }
 
-  .cv-entries,
-  .cv-projects,
-  .cv-skills,
-  .cv-bibliography {
-    margin: 2pt 0;
-    padding-left: 14pt;
+  .site-main--cv ul,
+  .site-main--cv ol {
+    margin: 3pt 0 7pt;
+    padding-left: 16pt;
   }
 
-  .cv-entries > li,
-  .cv-projects > li,
-  .cv-skills > li,
-  .cv-bibliography > li {
-    margin: 0;
-    padding: 1.25pt 0;
+  .site-main--cv li {
+    margin-bottom: 2.5pt;
     break-inside: avoid-page;
-    page-break-inside: avoid;
   }
 
-  .cv-projects,
-  .cv-skills,
   .cv-awards {
     break-inside: avoid-page;
-    page-break-inside: avoid;
-  }
-
-  .cv-bibliography {
-    padding-left: 16pt;
-    font-size: 9pt;
-    line-height: 1.2;
   }
 
   .cv-publication-link,
@@ -380,6 +360,6 @@ img {
 
   .site-main--cv a {
     color: inherit;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
