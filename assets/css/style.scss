@@ -269,17 +269,12 @@ img {
 @media print {
   @page {
     size: A4;
-    margin: 14mm 18mm;
+    margin: 16mm 18mm;
   }
 
   .cv-page {
-    color: #000;
-    background: #fff;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 9pt;
-    font-variant-ligatures: none;
-    line-height: 1.4;
-    hyphens: none;
+    font-size: 10pt;
+    line-height: 1.5;
     print-color-adjust: exact;
   }
 
@@ -293,73 +288,23 @@ img {
     width: auto;
     margin: 0;
     padding: 0;
-    font-family: inherit;
   }
 
   .cv-heading {
-    display: block;
-    margin: 0;
-  }
-
-  .cv-header {
-    break-inside: avoid-page;
-  }
-
-  .cv-header h1 {
-    margin: 0 0 2pt;
-    color: #000;
-    font: 700 20pt/1.05 Georgia, "Times New Roman", serif;
-    letter-spacing: 0;
-    text-align: center;
-  }
-
-  .cv-contact {
-    margin: 0 0 10pt;
-    padding-bottom: 7pt;
-    border-bottom: 1pt solid #000;
-    font: inherit;
-    text-align: center;
+    margin-bottom: 1.25rem;
   }
 
   .site-main--cv h2 {
-    margin: 12pt 0 5pt;
-    padding: 0 0 2.5pt;
-    border-bottom: 0.7pt solid #777;
-    color: #000;
-    font: 700 10.5pt/1.15 "Helvetica Neue", Arial, sans-serif;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
+    margin-top: 1.5rem;
     break-after: avoid-page;
   }
 
   .site-main--cv p {
-    margin: 0 0 6pt;
     orphans: 3;
     widows: 3;
   }
 
-  .site-main--cv ul,
-  .site-main--cv ol {
-    margin: 3pt 0 7pt;
-    padding-left: 16pt;
-  }
-
   .site-main--cv li {
-    margin-bottom: 2.5pt;
     break-inside: avoid-page;
-  }
-
-  .cv-awards {
-    break-inside: avoid-page;
-  }
-
-  .cv-publication-link,
-  .cv-citation {
-    overflow-wrap: anywhere;
-  }
-
-  .site-main--cv a {
-    color: inherit;
-    text-decoration: none;
   }
 }
